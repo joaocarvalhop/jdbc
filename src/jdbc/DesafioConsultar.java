@@ -36,8 +36,8 @@ public class DesafioConsultar {
 			System.out.println(p.getCodigo() + " >>> " + p.getNome());
 		}
 
-		entrada.close();
 		stmt.close();
 		conexao.close();
+		entrada.close();
 	}
 }
