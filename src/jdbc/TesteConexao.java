@@ -16,6 +16,7 @@ public class TesteConexao {
 		// e vai usar uma conexão segura entre a aplicação e o SQL
 		// ?verifyServerCertificate=false&useSSL=true
 		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSL=true"; 
+		// pode ser usado só assim tbm final String url = "jdbc:mysql://localhost"; 
 		final String usuario = "root";
 		final String senha = "0000";
 		
